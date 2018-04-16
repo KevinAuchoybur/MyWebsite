@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom :20%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{background-image:url(../img/foot/iniesta.jpg);}
+.img_1-2{background-image:url(../img/foot/zidane.jpg);}
+.img_1-3{background-image:url(../img/foot/cdm98.jpg);}
+
+.img_2-1{background-image:url(../img/foot/henry.jpg);}
+.img_2-2{background-image:url(../img/foot/ronaldinho.jpg);}
+.img_2-3{background-image:url(../img/foot/ronaldo.jpg);}
+
+.img_3-1{background-image:url(../img/foot/messi.jpg);}
+.img_3-2{background-image:url(../img/foot/cronaldo.jpg);}
+.img_3-3{background-image:url(../img/foot/maradona.jpg);}
+
+.img_4-1{background-image:url(../img/foot/platini.jpg);}
+.img_4-2{background-image:url(../img/foot/pele.jpg);}
+.img_4-3{background-image:url(../img/foot/beckenbauer.jpg);}
+
+.img_5-1{background-image:url(../img/foot/vbgr.jpg);}
+.img_5-2{background-image:url(../img/foot/msn.jpg);}
+.img_5-3{background-image:url(../img/foot/bbc.jpg);}
+
+
+.img_6-1{background-image:url(../img/foot/cantona.jpg);}
+.img_6-2{background-image:url(../img/foot/weah.jpg);}
+.img_6-3{background-image:url(../img/foot/sheva.jpg);}
+
+.img_7-1{background-image:url(../img/foot/kaka.jpg);}
+.img_7-2{background-image:url(../img/foot/beckham.jpg);}
+.img_7-3{background-image:url(../img/foot/galactiques.png);}
+
+.img_8-1{background-image:url(../img/foot/pirlo.jpg);}
+.img_8-2{background-image:url(../img/foot/xavi.jpg);}
+.img_8-3{background-image:url(../img/foot/neuer.jpg);}
+
+.img_9-1{background-image:url(../img/foot/maldini.jpg);}
+.img_9-2{background-image:url(../img/foot/vieira.jpg);}
+.img_9-3{background-image:url(../img/foot/cruyff.jpg);}
+
+
+
+
+
+
+
+
+
+
+/*  following just for the demo */
+
+
+body {
+    font-size:17px;
+    font-family:Segoe UI;
+    color: black;
+    text-align:center;
+    background:#ECECEC;
+
+}
+
+#bottom {
+    clear:both;
+    margin:0 1.66%;
+    width:89.68%;
+    padding: 3.5%;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+
+.linkRetour{float: right; color: white; text-decoration: none;}
+.linkRetour1{float: left; color: white; text-decoration: none;}
+.retourHaut{text-decoration: none; color: #34495e;}

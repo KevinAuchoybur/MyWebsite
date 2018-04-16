@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-color: #7f8c8d;
+	padding: 20px;
+	font-family: Segoe UI;
+	color: white;
+	font-size: 20px;
+
+}
+
+#box{
+
+	border: 1px solid #7f8c8d;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 50px;
+
+}
+
+#box_1 {
+
+	background-color: #3498db;
+	color: white;
+	padding: 20px;
+	font-family: Segoe UI;
+	font-size: 15px;
+
+	
+}
+
+#box_1 input{
+
+	background-color: #3498db; 
+	border : 1px solid white; 
+	padding :10px; color : white; 
+	font-family : Segoe UI; 
+	font-size: 15px;
+	outline: none;
+}
+
+
+#box_2 {
+
+	background-color: #2980b9;
+	color: white;
+	padding: 20px;
+	font-family: Segoe UI;
+	font-size: 15px;
+
+	
+}
+
+#box_2 input{
+
+	background-color: #2980b9; 
+	border : 1px solid white; 
+	padding :10px; color : white; 
+	font-family : Segoe UI; 
+	font-size: 15px;
+	outline: none;
+}
+
+#box_3 {
+
+	background-color: #16a085;
+	color: white;
+	padding: 20px;
+	font-family: Segoe UI;
+	font-size: 15px;
+
+	
+}
+
+#box_3 input{
+
+	background-color: #16a085 ; 
+	border : 1px solid white; 
+	padding :10px; color : white; 
+	font-family : Segoe UI; 
+	font-size: 15px;
+	outline: none;
+}
+
+#box_4 {
+
+	background-color: #c0392b ;
+	color: white;
+	padding: 20px;
+	font-family: Segoe UI;
+	font-size: 20px;
+
+	
+}
+
+
+#valider:hover{
+
+	background-color: white;
+	border: 3px solid #16a085;
+	color:#16a085;
+
+}
+
+#effacer:hover{
+
+	background-color: white;
+	border: 3px solid #16a085;
+	color:#16a085;
+
+}
+
+
+#footer {
+    background-color: #7f8c8d;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+   text-align: center;
+   font-family: Segoe UI;
+    
+ 
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculatrice</title>
+	<link rel="stylesheet" type="text/css" href="style/css.css">
+	<link rel="stylesheet"  href="style/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<center>
+<div id="header">
+<i class="fa fa-calculator" aria-hidden="true"></i> Calculatrice
+</div>
+</center>
+
+<center>
+<div id="box">
+
+<div id="box_1">
+<p>
+Saisir le premier nombre : <input type="number"  id="premierNb" name="premierNb" />
+</p>
+</div>
+<hr>
+
+<div id="box_2">
+<p>
+Sélectionner l'opérateur :
+<i class="fa fa-plus-circle" aria-hidden="true"></i> <input type="radio" id="r1" name="r"  />
+ <i class="fa fa-minus-circle" aria-hidden="true"></i> <input type="radio" id="r2" name="r" />
+<i class="fa fa-times" aria-hidden="true"></i> <input type="radio" id="r3" name="r" />
+/ <input type="radio" id="r4" name="r" />
+</p>
+</div>
+<hr>
+<div id="box_1">
+<p>
+Saisir le second nombre : <input type="number" id="secondNb" name="secondNb"  />
+</p>
+</div>
+
+
+
+<div id="box_3">
+
+<input type="submit" onclick="calc()" id="valider" name="valider" value="Exécuter l'opértation" />
+<input type="button" id="effacer" value="Effacer" onclick="ClearFields();"/>
+
+</div>
+
+
+
+<div id="box_4">
+
+
+<div id="afficheResultat"></div>
+
+</div>
+
+
+
+</center>
+
+<div id="footer"><i class="fa fa-copyright" aria-hidden="true"></i> KA-2016</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>

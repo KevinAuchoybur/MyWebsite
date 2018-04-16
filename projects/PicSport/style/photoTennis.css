@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom :20%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{background-image:url(../img/tenn/federer.jpg);}
+.img_1-2{background-image:url(../img/tenn/mcenroe.jpg);}
+.img_1-3{background-image:url(../img/tenn/borg.jpg);}
+
+.img_2-1{background-image:url(../img/tenn/agassi.jpg);}
+.img_2-2{background-image:url(../img/tenn/kuerten.jpg);}
+.img_2-3{background-image:url(../img/tenn/sampras.jpg);}
+
+.img_3-1{background-image:url(../img/tenn/noah.jpg);}
+.img_3-2{background-image:url(../img/tenn/djokovic.jpeg);}
+.img_3-3{background-image:url(../img/tenn/nadal.jpeg);}
+
+.img_4-1{background-image:url(../img/tenn/connors.jpg);}
+.img_4-2{background-image:url(../img/tenn/landl.jpg);}
+.img_4-3{background-image:url(../img/tenn/edberg.jpg);}
+
+
+
+/*  following just for the demo */
+
+
+body {
+    font-size:17px;
+    font-family:Segoe UI;
+    color: black;
+    text-align:center;
+    background:#ECECEC;
+
+}
+
+#bottom {
+    clear:both;
+    margin:0 1.66%;
+    width:89.68%;
+    padding: 3.5%;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+
+.linkRetour{float: right; color: white; text-decoration: none;}
+.linkRetour1{float: left; color: white; text-decoration: none;}
+.retourHaut{text-decoration: none; color: #34495e;}
